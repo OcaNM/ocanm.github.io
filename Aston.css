@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-image: url("Aston\ logo.jpeg");
+    background-image: url("Logo\ Aston.png");
     background-size: cover;
     height: 50vh;
   }
@@ -11,7 +11,95 @@ header.header {
     background-color: darkorange;
 }
 
+section.top-page {
+  padding-top: 25px;
+}
+
+/* tête de page */
+
+header.header {
+  display: flex;
+  align-items: center;
+  background-color: darkorange;
+}
+
+
+
+header.header img {
+  width: 150px;
+
+}
+
+/* menu de navigation */
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  list-style: none;
+  width: 1270px;
+  margin-left: 30px;
+}
 
 body {
-    
+  margin: 0;
+  padding: 0;
+  font: 12px Arial;
+  float: center;
+}
+
+.menu {
+  height: 35px;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+.menu li {
+  float: left;
+  width: 5Opx;
+}
+
+.menu li a:link, .menu li a:visited {
+  display: block;
+  color: #FFF;
+  background: #293245;
+  padding: 6px 10px;
+  border-right: 1px solid #FFF;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu li a:hover {background-color: orangered;}
+.menu li a:active {background-color: darkorange;}
+
+.menu .sousmenu {
+  list-style-type: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.menu .sousmenu li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  background-color: darkorange;
+}
+
+.menu .sousmenu li a:hover {
+  background-color: orangered;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
 }
