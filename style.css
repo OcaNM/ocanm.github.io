@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+section.top-page {
+    background: url('BG 3.png');
+    background-size: cover;
+    height: 80vh;
+    padding-top: 25px;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    margin: 15px;
+}
+
+
+
+nav.nav li {
+    color: white;
+}
+
+
+  body {
+    margin: 0 auto;
+  }
+
+/* tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+}
+
+
+
+header.header img {
+    width: 150px;
+
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    list-style: none;
+    width: 1270px;
+    margin-left: 30px;
+}

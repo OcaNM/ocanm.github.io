@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("Aston\ logo.jpeg");
+    background-size: cover;
+    height: 50vh;
+  }
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+}
+
+
+body {
+    
+}
