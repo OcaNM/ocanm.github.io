@@ -15,7 +15,29 @@ section.top-page {
     margin: 15px;
 }
 
+.mail {
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+    padding-top: 40px;
+}
 
+.ig {
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.ig_link {
+    color: yellow;
+    font-size: 20;
+
+
+}
+
+li.home {
+    font-style: bold;
+}
 
 nav.nav li {
     color: white;
@@ -56,6 +78,7 @@ body {
     margin: 0;
     padding: 0;
     font: 12px Arial;
+    font-style: bold;
     float: center;
 }
 
@@ -70,6 +93,8 @@ body {
     float: left;
     width: 5Opx;
 }
+
+
 
 .menu li a:link, .menu li a:visited {
     display: block;
